@@ -2,7 +2,7 @@
   "name": "master_backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js"
@@ -13,8 +13,11 @@
   "type": "module",
   "dependencies": {
     "@prisma/client": "^7.8.0",
+    "bcryptjs": "^3.0.3",
     "dotenv": "^17.4.2",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "prisma": "^7.8.0"

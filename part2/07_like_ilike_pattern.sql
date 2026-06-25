@@ -1,0 +1,3 @@
+--  like case sensitive match
+--  ilike case insensitive pattern match
+--  % means any number of chars

@@ -11,4 +11,19 @@ CREATE TABLE basics.accounts (
     is_active BOOLEAN DEFAULT true,
     age INTEGER CHECK (age >= 18),
     craeted_at TIMESTAMP DEFAULT NOW()
+);
+
+INSERT INTO basics.accounts (
+    full_name,
+    email,
+    age
 )
+VALUES
+(
+    'Shahzad',
+    'Shahzad@gmail.com',
+    20
+);
+
+
+SELECT * FROM basics.accounts;
